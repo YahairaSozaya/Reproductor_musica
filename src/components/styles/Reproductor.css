@@ -1,0 +1,58 @@
+.contenedor{
+    width: 300px;
+    height: 500px;
+    background-color: rgb(4, 16, 43);
+    border-radius: 20px;
+    display:grid;
+    grid-template-rows: 250px 40px 80px 80px 50px;
+    box-shadow: 5px 5px 5px 2px #242424;
+}
+
+.contenedor_portada{
+    justify-content: center;
+    display:flex;
+    align-items: flex-end;
+}
+
+.portada{
+    width: 200px;
+    height: 200px;
+}
+
+.texto{
+    color:white;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    padding:30px 0 0 0;
+}
+
+h1, h6{
+    margin:0;
+}
+
+.boton_contenedor{
+    display:flex;
+    justify-content: center;
+    margin:20px;
+}
+
+
+.boton{
+    width: 50px;
+    height: 50px;
+}
+
+.temporizador_contenedor{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    padding:10px 45px 0 45px;
+}
+
+.contenedor_animacion{
+    display:flex;
+    justify-content: center;
+    margin:0 0 20px 0;
+}

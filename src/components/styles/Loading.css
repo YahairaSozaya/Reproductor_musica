@@ -1,0 +1,64 @@
+.animacion_contenedor{
+    width: 150px;
+    height: 50px;
+    padding:10px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    transform: rotate(180deg);
+    justify-items: center;
+}
+
+.box{
+    width: 5px;
+    background-color: rgb(77, 216, 64);
+    border-radius: 3px; 
+    opacity:0;
+}
+
+.uno{
+    animation:uno 2s infinite;
+    animation-delay: 1000ms;
+}
+
+.dos{
+    animation:uno 2s infinite;
+    animation-delay: 800ms;
+}
+
+.tres{
+    animation:uno 2s infinite;
+    animation-delay: 600ms;
+}
+
+.cuatro{
+    animation:uno 2s infinite;
+    animation-delay: 400ms;
+}
+
+.cinco{
+    animation:uno 2s infinite;
+    animation-delay: 200ms;
+}
+
+.seis{
+    animation:uno 2s infinite;
+}
+
+
+@keyframes uno {
+    0% {
+        opacity:0;
+        height:0;
+    }
+
+    50% {
+		height: 40px;
+		opacity: 1;
+	}
+	
+	100% {
+		height: 0;
+		opacity: 0;
+    }
+}
+
